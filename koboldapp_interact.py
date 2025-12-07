@@ -1,6 +1,6 @@
 import requests, json, os, io, re, base64, random
 from make_image_from_comfy import make_comfy_image_and_return
-
+from config import ENDPOINT
 
 username =  "User"
 botname = "Assistant"
@@ -80,7 +80,7 @@ def send_kobold_a_message(discord_message):
         cleaned = re.split(r'user\b', text, flags=re.IGNORECASE)[0].strip()
         ret = make_comfy_image_and_return(cleaned)
     else:
-        ret =handle_message(f"return the message without fancy symbols used by markdown, new line is okay: {user_message}")# Handle the user's input and get the bot's response
+        ret =handle_message(f"Return your response for the user's message using correct grammar: {user_message}")# Handle the user's input and get the bot's response
 
     return ret 
 # quick test
