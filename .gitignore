@@ -2,7 +2,7 @@ config.json
 conv_history_*_terminal.txt
 *.safetensors
 *.ckpt
-
+*.png
 *.jpg
 __pycache__/
 *.pyc
