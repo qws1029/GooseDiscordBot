@@ -1,0 +1,10 @@
+config.json
+conv_history_*_terminal.txt
+*.safetensors
+*.ckpt
+
+*.jpg
+__pycache__/
+*.pyc
+.env
+.env.*
