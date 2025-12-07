@@ -19,7 +19,7 @@ Discord Bot that can be hooked up to an LLM backend and comfyui backend to talk 
 ## Steps To Run the Discord Bot
 - run koboldapp with your preferred llm model 
 - run comfyui using `python main.py` or your prefer way to launch the comfyui server
-- in this repo run `python discord_bot.py` to start up the bot
+- in this repo run `python discord_bot.py` to start up the bot, it will respond when you @ it on discord
 
 ## Example Demo:
 ![alt text](image.png)
